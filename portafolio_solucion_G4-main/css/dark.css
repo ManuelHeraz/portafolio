@@ -1,0 +1,45 @@
+:root{
+    --background-color: #1d1d1d;
+}
+
+body{
+    color: #d4d4d4;
+}
+
+
+section header {
+    color: #e7e7e7;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+section.about {
+    background-color: #444444;
+}
+
+section.skills div.skills-line div.skills-box {
+    background-color: #555555;
+}
+
+section.hobbies-section div.hobbies-line div.hobbies-box {
+    background-color: #555555;
+}
+
+section.academic {
+    background-color: #414141;
+}
+
+section.academic div.courses ul li.course-img {
+    background-color: rgb(78, 78, 78);
+}
+
+section.formcontato {
+    background-color: #444444;
+    padding: 16px;
+}
+
+section.footer {
+    background-color:  #242424;
+}

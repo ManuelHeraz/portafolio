@@ -1,0 +1,40 @@
+:root{
+    --background-color: #fdfdfd;
+}
+
+body{
+    color: black;
+}
+
+section header {
+    color: #464646;
+}
+
+a {
+    color: black;
+}
+
+section.about {
+    background-color: #e9fbff;
+}
+
+section.skills div.skills-line div.skills-box {
+    background-color: #fbfbfb;
+}
+
+section.academic {
+    background-color: #EAF2FD;
+}
+
+section.academic div.courses ul li.course-img {
+    background-color: rgb(255, 255, 255);
+}
+
+section.formcontato {
+    background-color: #EAF2FD;
+    padding: 16px;
+}
+
+section.footer {
+    background-color: white;
+}
