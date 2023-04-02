@@ -4,7 +4,6 @@
 body {
     box-sizing: border-box;
     background-color: var(--background-color);
-    cursor: pointer;
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
@@ -50,6 +49,14 @@ section.menu {
     height: 10vh;
 }
 
+.menu-list-item{
+    transition: linear 3s ease;
+}
+
+.menu-list-item:hover{
+    transform: scale(1.1);
+}
+
 section header {
     display: flex;
     align-items: center;
@@ -74,6 +81,10 @@ section.menu nav li {
     font-size: 14px;
     font-weight: 400;
 
+}
+
+.section.title{
+    background: linear-gradient(to bottom, #333, #222);
 }
 
 section.title div.title-div div.title-container h2 {
@@ -101,11 +112,27 @@ section.title img.profile {
     width: 20%;
 }
 
-.section-title {
+.section-title a{
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
+}
+
+.title-container ul li{
+    transition: 0.3s ease;
+}
+
+.title-container ul li:hover{
+    transform: scale(1.1);
+}
+
+.profile{
+    transition: 0.3s ease;
+}
+
+.profile:hover{
+    transform: scale(1.1);
 }
 
 /*Sessão About*/
@@ -173,6 +200,47 @@ section.hobbies-section div.hobbies-line div.hobbies-box ul {
     margin: 0;
     padding: 0;
 
+}
+
+.skills-box{
+    transition: transform 0.5s ease-in-out; 
+    transform-origin: center center; 
+    --scale-factor: 1.1; 
+}
+
+.skills-box:hover{
+    transform: scale(var(--scale-factor)); 
+}
+
+.hobbies-box{
+    transition: transform 0.5s ease-in-out; 
+    transform-origin: center center; 
+    --scale-factor: 1.1; 
+}
+
+.hobbies-box:hover{
+    transform: scale(var(--scale-factor)); 
+}
+
+
+.skills-box{
+    transition: transform 0.5s ease-in-out; 
+    transform-origin: center center; 
+    --scale-factor: 1.1; 
+}
+
+.skills-box:hover{
+    transform: scale(var(--scale-factor)); 
+}
+
+.courses-box{
+    transition: transform 0.5s ease-in-out; 
+    transform-origin: center center; 
+    --scale-factor: 1.1; 
+}
+
+.courses-box:hover{
+    transform: scale(var(--scale-factor)); 
 }
 
 /* Experiência Acadêmica*/
