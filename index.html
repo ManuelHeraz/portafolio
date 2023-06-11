@@ -15,8 +15,8 @@
     <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
 </head>
 <body>
+    <div id="particles-js"></div>
     <div class="todo">
-
         <section class="menu">
             <header>
                 <img src="assets\vector.png">
@@ -44,8 +44,8 @@
         <section class="title">
             <div class="title-div">
                 <img class="profile" src="assets\profile.png">
-                <div class="title-container">
-                    <h2>Hola, mi nombre es José Manuel Hernández Díaz y soy programador Jr.</h2>
+                <div class="title-container"> 
+                    <h2>Hola, mi nombre es: <p class="nombre"> José Manuel Hernández Díaz</p> y soy programador Jr.</h2>
                     <h3>Soy Q.F.B. y actualmente estoy participando del proyecto Oracle ONE en Alura Latam con especializacion front end.</h3>
                     <ul>
                         <li><a href="https://github.com/ManuelHeraz">Github <img src="assets\arrow.png"> </a></li>
@@ -346,15 +346,9 @@
                     <div class="contact-text">
                         <h2 class="contact-title">Contacto</h2>
                         <h3 class="contact-subtext">¿Quieres contactarme?</h3>
-                        <h3 class="contact-subtext"><p> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                        <p>Github pages es un servicio de alojamiento gratuito para sitios web estáticos, por lo tanto mandeme correo directamente a:</p></p> hernandezdiazjm00@gmail.com</p> </h3>
-                        <form class="form" name="form">
-                            <input type="text" name="nombre" placeholder="Nombre">
-                            <input type="email" name="email" placeholder="E-mail">
-                            <input type="text" name="asunto" placeholder="Assunto">
-                            <textarea rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                            <button type="submit">Enviar mensaje</button>
-                        </form>
+                        <h3 class="contact-subtext"><p> Mandeme un correo a: </p>
+                        <p>hernandezdiazjm00@gmail.com</p> Asunto: Contacto</p> </p> </h3>
+
                     </div>
                 </div>
         </section>
@@ -366,6 +360,7 @@
                 </div>
         </section>
     </div>
-<script src="script/validacion.js"></script>
+<script src="script/particles/particles.js"></script>
+<script src="script/particles/app.js"></script>
 </body>
 </html>
