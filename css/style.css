@@ -217,6 +217,7 @@ section.hobbies-section div.hobbies-line div.hobbies-box {
     margin: 15px 0 22px 0;
     width: 156px;
     height: 118px;
+    opacity: 0.8;
 }
 
 section.hobbies-section div.hobbies-line div.hobbies-box ul {
@@ -267,6 +268,15 @@ section.hobbies-section div.hobbies-line div.hobbies-box ul {
 }
 
 /* Experiência Acadêmica*/
+
+section.academic {
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.section-title{
+    margin-left: 5%;
+}
 
 section.academic div.courses {
     margin: 0 auto;
@@ -365,6 +375,8 @@ section.experience img {
 
 section.formcontato {
     padding: 16px;
+    opacity: 0.8;
+    border-radius: 10px;
 }
 
 section.formcontato div.esquerda img.contact-img {
